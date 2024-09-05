@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-signup {
+    background-color: #6c63ff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-login {
+    background-color: #fff;
+    color: #6c63ff;
+    border: 1px solid #6c63ff;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #f7f7f7;
+}
+
+.hero-text h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.service {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service h2 {
+    font-size: 1.2rem;
+    color: #6c63ff;
+}
+
+.service span {
+    color: #ff6f61;
+}
+
+.partners {
+    padding: 50px;
+    text-align: center;
+}
+
+.partner-logos img {
+    max-width: 150px;
+    margin: 10px;
+}
+
+.registration {
+    background-color: #f7f7f7;
+    padding: 50px;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.step h3 {
+    text-align: center;
+}
+
+.testimonials {
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.testimonial-video video {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
