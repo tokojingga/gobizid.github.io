@@ -43,6 +43,7 @@ nav ul li a {
 .auth-buttons {
     display: flex;
     gap: 15px;
+    margin-left: auto; /* This pushes the buttons to the right */
 }
 
 .btn {
