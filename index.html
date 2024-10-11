@@ -1,498 +1,433 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-
-    <!-- boostrap icons start-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-    <!-- boostrap icons end -->
-
-    <!-- my css -->
-    <link rel="stylesheet" href="style.css" />
-
-    <title>KULIku</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coervo Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
-  <body id="halaman">
-    <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-warning shadow sticky-top">
-      <div class="container">
-        <div class="navbar-brand" href="logo">
-          <img src="img/logo web.png" alt="logo"  width="250" height="45">
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link fw-bold" aria-current="page" href="#halaman">Halaman utama</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bold" href="#tentang">Tentang</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bold" href="#layanan">Layanan Kami</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bold" href="#jasa-tukang">Jasa Tukang</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bold" href="#mitra-kuliku">Mitra Kuliku</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bold" href="kartu nama/index.html">Hubungi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bold" href="#pesan">Pengaduan</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- navbar end -->
+  <body class="bg-secondary">
+    <div class="container p-0 mb-4 mt-4 rounded-3 shadow bg-white">
+        <!-- Menu -->
+        <nav class="d-md-flex p-4">
+            <div><h1>Coervo Store.</h1></div>
+            <div class="ms-auto my-auto">
+                <ul class="list-inline m-0">
+                    <li class="list-inline-item mx-md-3"><a href="#Collections" class="text-decoration-none text-dark fw-bold">Produk Kami</a></li>
+                    <li class="list-inline-item mx-md-3"><a href="#tentang" class="text-decoration-none text-dark fw-bold">Tentang Kami</a></li>
+                    <li class="list-inline-item mx-md-3"><a href="#order" class="text-decoration-none text-dark fw-bold">Cara Order</a></li>
+                </ul>
+            </div>
+        </nav>
 
-   <!-- first layout start -->
+        <!-- banner -->
+        <div class="px-4 mb-4">
+          <img src="images/banner.png" class="w-100 rounded-3" />
+        </div>
 
-  
-    <!-- carousel image -->
-    <div class="container-fluid">
-    <div id="carouselExampleCaptions"
-    class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+        <!-- catalogue -->
+        <h3 class="text-center" id="Collections">Our Collections</h3>
+        <div class="text-center w-50 mx-auto fw-light">Kamu tahu apa yang menjadi kebanggaan kami? Yaitu kepuasan Anda!</div>
+
+        <div class="row row-cols-md-3 row-cols-2 gx-5 p-5">
+          <div class="col mb-5">
+            <div class="card shadow">
+            <img src="images/1.png" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Design Stiker Teknik Jaringan Komputer</p>
+            </div>
+            <div class="d-none deskripsi"><p>Design Stiker Teknik Jaringan Komputer ini tersedia Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
+
+              <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
+              
+              <p>Ukuran Stiker :  A4, dan 1 Meter</p>
+              <p>kalian juga bisa request stiker sesuai kemauan sendiri.</p>
+              
+              </div>
+            <div class="card-footer d-md-flex">
+              <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+              <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 25.000 - 5.000</span>
+            </div>
+          </div>
+        </div>
+        
+          <div class="col mb-5">
+          <div class="card shadow">
+          <img src="images/2.png" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">T-shirt StarGirls</p>
+          </div>
+          <div class="d-none deskripsi"><p>T-shirt StarGirls ini tersedia semua ukuran, Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
+
+            <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
+            
+            <p>• Gambar : Asli Coervo</p>
+            <p>• Unisex : Untuk pria / Wanita</p>
+            <p>• Bahan : Katun</p>
+            <p>Ukuran Baju : S, M, L, XL, XXL</p>
+            
+            </p></div>
+          <div class="card-footer d-md-flex">
+            <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+            <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
+          </div>
+        </div>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/services3.png" class="d-block w-100" alt="gambar konstruksi 1" style="height: 300px;">
-          <div class="carousel-caption">
-            <h6 class="text-danger fw-bold"><i class="bi bi-house-check"></i>&nbsp;<b>jasa Tukang Bangunan</b>&nbsp;<i class="bi bi-house-check"></i></h6>
-            <p><i>pengen membangun rumah ataupun ruko kekami aja yea kak</i></p>
-          </div>
+
+      <div class="col mb-5">
+        <div class="card shadow">
+        <img src="images/3.jpg" class="card-img-top" />
+        <div class="card-body">
+          <p class="card-text">T-shirt SIXTEEN</p>
         </div>
-        <div class="carousel-item">
-          <img src="img/services4.png" class="d-block w-100" alt="gambar konstruksi 2" style="height: 300px;">
-          <div class="carousel-caption">
-            <h6 class="text-danger fw-bold"><i class="bi bi-house-check"></i>&nbsp;<b>jasa Tukang Bangunan</b>&nbsp;<i class="bi bi-house-check"></i></h6>
-            <p><i>pengen membangun rumah ataupun ruko kekami aja yea kak</i></p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="img/services5.png" class="d-block w-100" alt="gambar kontruksi 3" style="height: 300px;">
-          <div class="carousel-caption">
-            <h6 class="text-danger fw-bold"><i class="bi bi-house-check"></i>&nbsp;<b>Borongan atau non borongan</b>&nbsp;<i class="bi bi-house-check"></i></h6>
-            <p><i>pengen membangun rumah ataupun ruko kekami aja yea kak</i></p>
-          </div>
+        <div class="d-none deskripsi"><p>T-shirt SIXTEEN ini tersedia semua ukuran, Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
+
+          <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
+          
+          <p>• Gambar : Asli Coervo</p>
+          <p>• Unisex : Untuk pria / Wanita</p>
+          <p>• Bahan : Katun</p>
+          <p>Ukuran Baju : S, M, L, XL, XXL</p>
+          
+          </p></div>
+        <div class="card-footer d-md-flex">
+          <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+          <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+    </div>
+
+    <div class="col mb-5">
+      <div class="card shadow">
+      <img src="images/4.jpg" class="card-img-top" />
+      <div class="card-body">
+        <p class="card-text">T-shirt Spiders And Bone Men</p>
+      </div>
+      <div class="d-none deskripsi"><p>T-shirt Spiders And Bone Men ini tersedia semua ukuran, Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
+
+        <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
+        
+        <p>• Gambar : Asli Coervo</p>
+        <p>• Unisex : Untuk pria / Wanita</p>
+        <p>• Bahan : Katun</p>
+        <p>Ukuran Baju : S, M, L, XL, XXL</p>
+        
+        </p></div>
+      <div class="card-footer d-md-flex">
+        <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+        <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
+      </div>
     </div>
   </div>
-  <!-- end of carousel image -->
 
-    <!-- jumbotron start -->
-    <section class="jumbotron text-center">
-      <img src="img/gambar4.png" alt="logo" width="200" />
-      <h1 class="display-7 fw-bold">JASA TUKANG BANGUNAN</h1>
-      <i class="lead">Berpengalaman lebih dari <span style="color: rgb(233, 9, 9)">100+</span> dalam membangun dan merenov rumah <i class="bi bi-house-door"></i> dll</i> <br><br> <b>KULIku | KOTA KENDARI</b>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,64L288,256L576,96L864,192L1152,64L1440,96L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
-    </section>
-    <!-- jumbotron end -->
+  <div class="col mb-5">
+    <div class="card shadow">
+    <img src="images/5.png" class="card-img-top" />
+    <div class="card-body">
+      <p class="card-text">Design Stiker SMK Wirasaba</p>
+    </div>
+    <div class="d-none deskripsi"><p>Design Stiker SMK Wirasaba ini tersedia Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
 
-    <!-- about start -->
-    <section id="tentang">
-      <div class="container-fluid">
-        <div class="row text-center mb-3">
-          <div class="justify-content-center">
-            <h2>Tentang Kami</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center text-center">
-          <div class="col-md-9">
-            <Tenang>
-              KULIku.Com merupakan penyedia jasa tukang bangunan yang mengerjakan proyek bangunan baru maupun renovasi. Kami menyediakan berbagai jasa bangunan, mulai dari bangun rumah baru, pengecatan tembok, pemasangan bata, pemasangan
-              paving, pemasangan genteng, dan pemasangan keramik lantai,
-              <br><br>Anda berencana membangun rumah modern atau klasik?
-              <br><br>Tenang saja, KULIku siap mengerjakan pembangunan rumah berbagai model
-              atau tipe, mulai dari rumah bergaya modern, klasik, sederhana, yang berukuran besar, sedang maupun minimalis. 
-              <br><br>Sampaikan konsep rumah idaman yang Anda inginkan, KULIku akan menjawabnya dengan hasil pembangunan yang memuaskan.
-            </p>
-          </div>
-        </div>
+      <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
+      
+      <p>Ukuran Stiker :  A4, dan 1 Meter</p>
+      <p>kalian juga bisa request stiker sesuai kemauan sendiri.</p>
+      
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1a2833" fill-opacity="1" d="M0,64L288,256L576,96L864,192L1152,64L1440,96L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
-    </section>
-    <!-- about end -->
+    <div class="card-footer d-md-flex">
+      <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+      <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 25.000 - 5.000</span>
+    </div>
+  </div>
+</div>
 
-    <!-- services start-->
-    <section id="layanan">
-      <h1 class="mb-5 text-light">Galery Project KULIku</h1>
-      <div class="container">
-        <div class="card">
-          <a href="#satu">
-            <img src="img/hasil (1).jpeg" alt="" />
-            <div class="img-title">
-              <h3><i class="bi bi-zoom-in"></i></h3>
-            </div>
-            <div class="overlay" id="satu">
-              <img src="img/overlay (1).jpeg" alt="" />
-            </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#tiga">
-              <img src="img/hasil (3).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-              <div class="overlay" id="tiga">
-                <img src="img/overlay (3).jpeg" alt="" />
-              </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#empat">
-              <img src="img/hasil (4).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-              <div class="overlay" id="empat">
-                <img src="img/overlay (4).jpeg" alt="" />
-              </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#lima">
-              <img src="img/hasil (5).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-              <div class="overlay" id="lima">
-                <img src="img/overlay (5).jpeg" alt="" />
-              </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#enam">
-              <img src="img/hasil (6).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-              <div class="overlay" id="enam">
-                <img src="img/overlay (6).jpeg" alt="" />
-              </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#tujuh">
-              <img src="img/hasil (7).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-              <div class="overlay" id="tujuh">
-                <img src="img/overlay (7).jpeg" alt="" />
-              </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#delapan">
-              <img src="img/hasil (8).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-              <div class="overlay" id="delapan">
-                <img src="img/overlay (8).jpeg" alt="" />
-              </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#sembilan">
-              <img src="img/hasil (9).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-              <div class="overlay" id="sembilan">
-                <img src="img/overlay (9).jpeg" alt="" />
-              </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#sepuluh">
-              <img src="img/hasil (10).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-              <div class="overlay" id="sepuluh">
-                <img src="img/overlay (10).jpeg" alt="" />
-              </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#sebelas">
-              <img src="img/hasil (11).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-              <div class="overlay" id="sebelas">
-                <img src="img/overlay (11).jpeg" alt="" />
-              </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#duabelas">
-              <img src="img/hasil (12).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-                <div class="overlay" id="duabelas">
-                  <img src="img/overlay (12).jpeg" alt="" />
-                </div>
-              </a>
-          </div>
-        <div class="card">
-          <a href="#tigabelas">
-              <img src="img/hasil (13).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-                <div class="overlay" id="tigabelas">
-                  <img src="img/overlay (13).jpeg" alt="" />
-                </div>
-              </a>
-          </div>
-        <div class="card">
-          <a href="#empatbelas">
-              <img src="img/hasil (14).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-                <div class="overlay" id="empatbelas">
-                  <img src="img/overlay (14).jpeg" alt="" />
-                </div>
-              </a>
-          </div>
-        <div class="card">
-          <a href="#limabelas">
-              <img src="img/hasil (15).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-                <div class="overlay" id="limabelas">
-                  <img src="img/overlay (15).jpeg" alt="" />
-                </div>
-              </a>
-          </div>
-        <div class="card">
-          <a href="#enambelas">
-              <img src="img/hasil (16).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-                <div class="overlay" id="enambelas">
-                  <img src="img/overlay (16).jpeg" alt="" />
-                </div>
-              </a>
-          </div>
-        <div class="card">
-          <a href="#tujuhbelas">
-              <img src="img/hasil (17).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-                <div class="overlay" id="tujuhbelas">
-                  <img src="img/overlay (17).jpeg" alt="" />
-                </div>
-              </a>
-          </div>
-        <div class="card">
-          <a href="#delapanbelas">
-              <img src="img/hasil (18).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-                <div class="overlay" id="delapanbelas">
-                  <img src="img/overlay (18).jpeg" alt="" />
-                </div>
-              </a>
-          </div>
-        <div class="card">
-          <a href="#sembilanbelas">
-              <img src="img/hasil (19).jpeg" alt="" />
-              <div class="img-title">
-                <h3><i class="bi bi-zoom-in"></i></h3>
-              </div>
-                <div class="overlay" id="sembilanbelas">
-                  <img src="img/overlay (19).jpeg" alt="" />
-                </div>
-              </a>
-          </div>
-        </div>
-      </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,64L288,256L576,96L864,192L1152,64L1440,96L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
-    </section>
-    <!-- services end -->
+<div class="col mb-5">
+  <div class="card shadow">
+  <img src="images/6.jpg" class="card-img-top" />
+  <div class="card-body">
+    <p class="card-text">Flasdisk Isi Game Langsung Main</p>
+  </div>
+  <div class="d-none deskripsi"><p>Flasdisk Isi Game untuk Laptop/PC Langsung Main ini tersedia Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
 
-    <!-- jasa tukang start -->
-    <section id="jasa-tukang">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col justify-content-center">
-            <h2>Jasa Tukang yang Kami Tawarkan</h2>
-            <h1 class="fw-bold text-warning">_______</h1>
-          </div>
-        </div>
-        <div class="row justify-content-center text-center ">
-          <div class="col-md-9">
-            <p>
-              KULIku menawarkan jasa tukang bangunan harian maupun borongan. KULIku juga menawarkan jasa pembangunan baru maupun renovasi berbagai bangunan. Lebih lengkapnya, berikut jasa yang kami tawarkan:
-            </p>
-          </div>
-          <div class="col-md-6 text-start">
-          <p><i class="bi bi-check-circle"></i>Jasa bangun rumah baru <br>
-            <i class="bi bi-check-circle"></i>Jasa bangun ruko, kios, indekos dan kontrakkan baru <br>
-            <i class="bi bi-check-circle"></i>Jasa bangun kantor baru <br>
-            <i class="bi bi-check-circle"></i>Jasa desain interior kantor dan apartemen <br>
-            <i class="bi bi-check-circle"></i>Jasa Pemasangan Bata <br>
-            <i class="bi bi-check-circle"></i>Jasa Plester Tembok <br>
-            <i class="bi bi-check-circle"></i>Jasa Pengacian Tembok <br>
-            <i class="bi bi-check-circle"></i>Jasa Pengecatan Tembok Interior <br>
-            <i class="bi bi-check-circle"></i>Jasa Pengecatan Tembok Eksterior <br>
-            <i class="bi bi-check-circle"></i>Jasa Pengecatan Plafond <br>
-            <i class="bi bi-check-circle"></i>Jasa Pemasangan Keramik Lantai <br>
-          </p>
-        </div>
-          <div class="col-md-6 text-start">
-          <p><i class="bi bi-check-circle"></i>Jasa Pemasangan Keramik Dinding <br>
-            <i class="bi bi-check-circle"></i>Jasa Pemasangan Batu Alam andesit <br>
-            <i class="bi bi-check-circle"></i>Jasa Pemasangan Plafond Berikut Pasang Hollo <br>
-            <i class="bi bi-check-circle"></i>Jasa Perbaikan Tembok Retak & Rembes <br>
-            <i class="bi bi-check-circle"></i>Jasa Pemasangan Paving Block <br>
-            <i class="bi bi-check-circle"></i>Jasa Pemasangan Genteng <br>
-            <i class="bi bi-check-circle"></i>Jasa Pemasangan Kerpus <br>
-            <i class="bi bi-check-circle"></i>Jasa pemasangan keramik lantai, dinding dan lainnya <br>
-            <i class="bi bi-check-circle"></i>Jasa pemasangan genteng <br>
-            <i class="bi bi-check-circle"></i>Jasa perbaikan tembok rusak, retak dan rembes dan air Dan lain-lain<br>
-            <i class="bi bi-check-circle"></i>Jasa Pemasangan Granit Lantai
-          </p>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffc812" fill-opacity="1" d="M0,64L288,256L576,96L864,192L1152,64L1440,96L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
-    </section>
-    <!-- jasa tukang end -->
-
-    <!-- mitra KULIku start -->
-    <section id="mitra-kuliku">
-      <div class="container2">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Mitra Kami</h2>
-            <h1 class="fw-bold text-dark">_______</h1>
-            <i>"Kami menjamin mitra kami adalah mitra yang terpercaya, berpengalaman, berdedikasi, dan tentunya memiliki kejujuran yang tinggi.<br>Maka mari bantu kami dalam menggerakkan roda perekonomian mereka dengan mempekerjakannya (mitra KULIku)." </i>
-          </div>
-        </div>
-        <div class="row justify-content-center text-center">
-          <div class="col-md-8">
-            <img src="img/mitra1.jpg" alt="mitra1" class="rounded-circle" width="150" height="150">
-            <img src="img/mitra2.jpg" alt="mitra1" class="rounded-circle" width="150" height="150">
-            <img src="img/mitra3.jpg" alt="mitra1" class="rounded-circle" width="150" height="150">
-            <img src="img/mitra4.jpg" alt="mitra1" class="rounded-circle" width="150" height="150">
-          </div>
-          </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,64L288,256L576,96L864,192L1152,64L1440,96L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
-    </section>
-    <!-- mitra KULIku end -->
-
-    <!-- PESAN start-->
-    <section id="pesan">
-      <div class="container1">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Contact Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-              <strong>Terimakasih</strong> &nbsp; pesan diterima, kami akan menghubungi anda kembali.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-            <form name="kuliku-contact-form">
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
-              </div>
-              <div class="mb-3">
-                <label for="Nomor telepon" class="form-label">Nomor Telepon</label>
-                <input type="Nomor telepon" class="form-control" id="Nomor telepon" aria-describedby="Nomor telepon" name="nomor telepon" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-kirim">kirim</button>
-
-              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                Loading...
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffc107" fill-opacity="1" d="M0,64L288,256L576,96L864,192L1152,64L1440,96L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
-    </section>
-    <!-- PESAN end -->
-
-    <!-- footer start-->
-    <footer class="bg-warning shadow text-white text-center pb-5">
-      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="@ali281114" class="text-light fw-bold">Muhammad Ali</a></p>
-    </footer>
-    <!-- footer end -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbxpaLKU9W5WwNQ6TFh5IytaasXnJREoEsGXu02nxVU1xx6hh2_iNwx8GGGQC8_MxNGv/exec'
-      const form = document.forms['kuliku-contact-form']
-      const btnKirim = document.querySelector('.btn-kirim')
-      const btnLoading = document.querySelector('.btn-loading')
-      const myAlert = document.querySelector('.my-alert')
+    <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
     
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        // ketika tombol submit diklik
-        // tampilkan tombol loading, hilangkan tombol kirim
-        btnLoading.classList.toggle('d-none')
-        btnKirim.classList.toggle('d-none')
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => {
-             // tampilkan tombol kirim, hilangkan tombol loading
-            btnLoading.classList.toggle('d-none')
-            btnKirim.classList.toggle('d-none')
-            // tampilkan alert
-            myAlert.classList.toggle('d-none')
-            // reset formnya
-            form.reset()
-            console.log('Success!', response)
-          })
-          .catch(error => console.error('Error!', error.message))
-      })
-    </script>
-    <script src="script.js"></script>
+    <p>- untuk gamenya kalian tidak perlu install lagi, kalian hanya perlu colokkan flasdisk dan langsung mainkan gamenya</p>
+    <p>Jenis Game : PS2/PS3/PS4/PC/XBOX</p>
+    <p>kalian juga bisa request game yang kalian inginkan sesuai kemauan sendiri.</p>
+    
+    </div>
+  <div class="card-footer d-md-flex">
+    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+    <span class="ms-auto text-danger fw-bold d-block text-center harga">depending on game type</span>
+  </div>
+</div>
+</div>
+
+<div class="col mb-5">
+  <div class="card shadow">
+  <img src="images/7.png" class="card-img-top" />
+  <div class="card-body">
+    <p class="card-text">T-shirt TJKT</p>
+  </div>
+  <div class="d-none deskripsi"><p>T-shirt TJKT ini tersedia semua ukuran, Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
+
+    <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
+    
+    <p>• Gambar : Asli Coervo</p>
+    <p>• Unisex : Untuk pria / Wanita</p>
+    <p>• Bahan : Katun</p>
+    <p>Ukuran Baju : S, M, L, XL, XXL</p>
+    
+    </p></div>
+  <div class="card-footer d-md-flex">
+    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
+  </div>
+</div>
+</div>
+
+<div class="col mb-5">
+  <div class="card shadow">
+  <img src="images/8.png" class="card-img-top" />
+  <div class="card-body">
+    <p class="card-text">T-shirt MOTUS ANIMI</p>
+  </div>
+  <div class="d-none deskripsi"><p>T-shirt MOTUS ANIMI ini tersedia semua ukuran, Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
+
+    <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
+    
+    <p>• Gambar : Asli Coervo</p>
+    <p>• Unisex : Untuk pria / Wanita</p>
+    <p>• Bahan : Katun</p>
+    <p>Ukuran Baju : S, M, L, XL, XXL</p>
+    
+    </p></div>
+  <div class="card-footer d-md-flex">
+    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
+  </div>
+</div>
+</div>
+
+<div class="col mb-5">
+  <div class="card shadow">
+  <img src="images/9.jpg" class="card-img-top" />
+  <div class="card-body">
+    <p class="card-text">T-shirt Problem</p>
+  </div>
+  <div class="d-none deskripsi"><p>T-shirt Problem ini tersedia semua ukuran, Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
+
+    <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
+    
+    <p>• Gambar : Asli Coervo</p>
+    <p>• Unisex : Untuk pria / Wanita</p>
+    <p>• Bahan : Katun</p>
+    <p>Ukuran Baju : S, M, L, XL, XXL</p>
+    
+    </p></div>
+  <div class="card-footer d-md-flex">
+    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
+  </div>
+</div>
+</div>
+
+<div class="col mb-5">
+  <div class="card shadow">
+  <img src="images/10.jpg" class="card-img-top" />
+  <div class="card-body">
+    <p class="card-text">T-shirt Aku Dewe VS Circlemu</p>
+  </div>
+  <div class="d-none deskripsi"><p>T-shirt Aku Dewe VS Circlemu ini tersedia semua ukuran, Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
+
+    <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
+    
+    <p>• Gambar : Asli Coervo</p>
+    <p>• Unisex : Untuk pria / Wanita</p>
+    <p>• Bahan : Katun</p>
+    <p>Ukuran Baju : S, M, L, XL, XXL</p>
+    
+    </p></div>
+  <div class="card-footer d-md-flex">
+    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
+  </div>
+</div>
+</div>
+
+<div class="col mb-5">
+  <div class="card shadow">
+  <img src="images/11.png" class="card-img-top" />
+  <div class="card-body">
+    <p class="card-text">Design Stiker Computers Network</p>
+  </div>
+  <div class="d-none deskripsi"><p>Design Stiker Computers Network ini tersedia semua ukuran, Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
+
+    <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
+    
+    <p>ukuran stiker : A4, dan 1 Meter</p>
+    <p>kalian juga bisa request stiker sesuai kemauan sendiri.</p>
+    
+    </p></div>
+  <div class="card-footer d-md-flex">
+    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 25.000 - 5.000</span>
+  </div>
+</div>
+</div>
+
+<div class="col mb-5">
+  <div class="card shadow">
+  <img src="images/12.png" class="card-img-top" />
+  <div class="card-body">
+    <p class="card-text">T-shirt I Have My Own Run</p>
+  </div>
+  <div class="d-none deskripsi"><p>T-shirt I Have My Own Run ini tersedia semua ukuran, Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
+
+    <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
+    
+    <p>• Gambar : Asli Coervo</p>
+    <p>• Unisex : Untuk pria / Wanita</p>
+    <p>• Bahan : Katun</p>
+    <p>Ukuran Baju : S, M, L, XL, XXL</p>
+    
+    </p></div>
+  <div class="card-footer d-md-flex">
+    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
+  </div>
+</div>
+</div>
+
+<div class="col mb-5">
+  <div class="card shadow">
+  <img src="images/13.png" class="card-img-top" />
+  <div class="card-body">
+    <p class="card-text">Design Stiker Bad Vibes</p>
+  </div>
+  <div class="d-none deskripsi"><p>Design Stiker Bad Vibes ini tersedia semua ukuran, Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
+
+    <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
+    
+    <p>ukuran stiker : A4, dan 1 Meter</p>
+    <p>kalian juga bisa request stiker sesuai kemauan sendiri.</p>
+    
+    </p></div>
+  <div class="card-footer d-md-flex">
+    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 25.000 - 5.000</span>
+  </div>
+</div>
+</div>
+
+<div class="col mb-5">
+  <div class="card shadow">
+  <img src="images/14.png" class="card-img-top" />
+  <div class="card-body">
+    <p class="card-text">Bone And Star Shorts</p>
+  </div>
+  <div class="d-none deskripsi"><p>Bone And Star Shorts ini tersedia semua ukuran, Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
+
+    <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
+    
+    <p>• Gambar : Asli Coervo</p>
+    <p>• Unisex : Untuk pria</p>
+    <p>• Bahan : Katun Twill</p>
+    <p>Ukuran celana : S, M, L, XL</p>
+    
+    </p></div>
+  <div class="card-footer d-md-flex">
+    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
+  </div>
+</div>
+</div>
+
+<div class="col mb-5">
+  <div class="card shadow">
+  <img src="images/15.jpg" class="card-img-top" />
+  <div class="card-body">
+    <p class="card-text">T-shirt Rock Star</p>
+  </div>
+  <div class="d-none deskripsi"><p>T-shirt Rock Star ini tersedia semua ukuran, Sebelum Transaksi Tanyakan stock terlebih dahulu ya , Ditakutkan Stock Habis</p>
+
+    <p>Catatan : Kita hanya memiliki Satu akun jika ada foto Sama dengan kita itu bukan kita ya , Awas ketipu sama foto . cek etalase produk yg lainya ditoko kami udah pasti realpict hasil foto sendiri & fresh .</p>
+    
+    <p>• Gambar : Asli Coervo</p>
+    <p>• Unisex : Untuk pria / Wanita</p>
+    <p>• Bahan : Katun</p>
+    <p>Ukuran Baju : S, M, L, XL, XXL</p>
+    
+    </p></div>
+  <div class="card-footer d-md-flex">
+    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
+  </div>
+</div>
+</div>
+</div>
+
+
+        <!-- tentang kami -->
+
+
+        <div id="tentang" class="row-col-12 px-4 py-4 bg-secondary text-center">
+          <div class="mx-auto w-75">
+            <h3 class="text-white">Tentang Kami</h3>
+            <p class="text-center text-white"><img src="images/about-us.png" align="left" style="width: 100px; height: auto" class="me-3 mb-3"/>Selamat datang di Coervo Store! Kami adalah tim yang berdedikasi untuk memberikan Anda produk-produk berkualitas tinggi dan layanan terbaik. Dengan pengalaman kami dalam industri ini, kami percaya bahwa kepuasan pelanggan adalah prioritas utama kami.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.771438895675!2d107.33510812426715!3d-6.293740311598435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e697777d7c929e7%3A0x41b110588137aae0!2sSMK%20Wirasaba%20Karawang%20Kampus%202!5e0!3m2!1sid!2sid!4v1692493955101!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <!-- cara order-->
+        <div id="order" class="row-col-12 px-4 py-4 bg-light text-center">
+          <div class="mx-auto w-75">
+            <h3 ">Cara Order</h3>
+            <p class="text-center"><img src="images/order.png" align="right" style="width: 100px; height: auto" class="ms-3 mb-3"/>Proses pemesanan di Coervo Store sangatlah mudah. Ikuti 2 langkah di bawah ini untuk memesan produk impian Anda:
+            </p>
+            <p>1. Pilih produk yang Anda inginkan di "produk kami".</p>
+            <p>2. Klik tombol "Beli Produk Ini" untuk menanyakan produk dan memesan produk.</p>
+          </div>
+        </div>
+
+        <!-- copyright -->
+        <div class="text-center p-4 border-top">&copy; 2023 Coervo Store. - Jagonyajasa</div>
+        
+        
+    
+    <!-- modal -->
+<button type="button" class="btn btn-primary d-none btnModal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 modalTitle" id="exampleModalLabel"></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body row">
+        <div class="modalImage col-md-6 col-12"></div>
+        <div class="col-md-6 col-12">
+          <div class="modalDeskripsi"></div>
+          <div class="d-md-flex">
+            <a href="" target="blank" class="btn btn-sm btn-warning d-block btnBeli">Beli Produk Ini</a>
+            <span class="ms-auto text-danger fw-bold d-block text-center modalHarga"></span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Komentar -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="javascript/main.js"></script>
   </body>
 </html>
