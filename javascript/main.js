@@ -22,7 +22,7 @@ document.querySelectorAll('.btnDetail').forEach(item => {
         document.querySelector('.modalHarga').innerHTML = harga;
 
 
-        const nohp = '+62 857-8873-9280';
+        const nohp = '+62 852-9989-9161';
         let pesan = `https://api.whatsapp.com/send?phone=${nohp}&text=Halo, saya ingin membeli produk ini ${gambar}`;
 
         document.querySelector('.btnBeli').href = pesan;
