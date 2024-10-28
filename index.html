@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Toko Jingga</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  </head>
-  <body class="bg-secondary">
+</head>
+<body class="bg-secondary">
     <div class="container p-0 mb-4 mt-4 rounded-3 shadow bg-white">
         <!-- Menu -->
         <nav class="d-md-flex p-4">
@@ -21,449 +21,125 @@
             </div>
         </nav>
 
-        <!-- banner -->
+        <!-- Banner -->
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/mengg.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/mengg.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mengg.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mengg.jpg" class="d-block w-100" alt="...">
+                </div>
             </div>
-            <div class="carousel-item">
-              <img src="img/mengg.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/mengg.jpg" class="d-block w-100" alt="...">
-            </div>
-          </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
-
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-        
-        <!-- catalogue -->
-        
-        <!-- <div class="d-flex flex-column"> -->
-          <p class="text-center w-50 mx-auto fw-light">Kamu tahu apa yang menjadi kebanggaan kami? Yaitu kepuasan Anda!</p>
-          <h3 class="text-center" id="Collections">Our Collections</h3>
-        <!-- </div> -->
+        <!-- Catalogue -->
+        <p class="text-center w-50 mx-auto fw-light">Kamu tahu apa yang menjadi kebanggaan kami? Yaitu kepuasan Anda!</p>
+        <h3 class="text-center" id="Collections">Our Collections</h3>
         <div class="row row-cols-md-3 row-cols-2 gx-5 p-5">
-          <div class="col mb-5">
-            <div class="card shadow">
-            <img src="img/merah.jpg" class="card-img-top" />
-            <div class="card-body">
-              <p class="card-text">Warna Merah</p>
+            <!-- Card Example -->
+            <div class="col mb-5">
+                <div class="card shadow">
+                    <img src="img/merah.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <p class="card-text">Warna Merah</p>
+                    </div>
+                    <div class="d-none deskripsi">
+                        <p>Warna merah adalah simbol keberanian dan semangat...</p>
+                    </div>
+                    <div class="card-footer d-md-flex">
+                        <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
+                        <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
+                    </div>
+                </div>
             </div>
-            <div class="d-none deskripsi"><p>Warna merah adalah simbol keberanian dan semangat. Dalam dunia cat, merah memberikan kesan yang kuat dan energik. Cocok untuk menciptakan suasana yang dinamis, warna ini sering digunakan untuk menarik perhatian dan memberikan aksen yang berani pada ruangan. Dari merah cerah yang mencolok hingga merah tua yang elegan, pilihan ini dapat menambah karakter pada setiap desain interior.</p>
+            <!-- Repeat for other colors... -->
+        </div>
 
-              <p>Selain itu, merah juga memiliki makna emosional yang mendalam. Warna ini sering diasosiasikan dengan cinta dan gairah, menjadikannya pilihan yang tepat untuk ruang-ruang yang ingin mengekspresikan kehangatan dan kedekatan. Dengan cat merah, Anda dapat menciptakan atmosfer yang penuh kehidupan dan inspirasi.</p>
-      
-              </div>
-            <div class="card-footer d-md-flex">
-              <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-              <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
+        <!-- Featured Products -->
+        <div class="featured-products py-5">
+            <h3 class="text-center">Produk Unggulan</h3>
+            <div class="container">
+                <div class="row row-cols-md-4 row-cols-2 g-4 justify-content-center">
+                    <div class="col">
+                        <div class="card shadow">
+                            <img src="img/pink.jpg" class="card-img-top" alt="Produk Unggulan 2">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Cat Eco-Friendly</h5>
+                                <p class="card-text">Ramah lingkungan dan aman untuk keluarga.</p>
+                                <span class="text-danger fw-bold">Rp. 200.000</span>
+                                <a href="#" class="btn btn-primary mt-2">Beli Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat for other featured products... -->
+                </div>
             </div>
-          </div>
         </div>
-        
-          <div class="col mb-5">
-          <div class="card shadow">
-          <img src="img/jingga.jpg" class="card-img-top" />
-          <div class="card-body">
-            <p class="card-text">Jingga</p>
-          </div>
-          <div class="d-none deskripsi"><p>Jingga adalah warna yang ceria dan mengundang keceriaan. Kombinasi antara merah dan kuning ini menghadirkan nuansa hangat yang dapat menghidupkan suasana. Warna jingga sangat ideal untuk ruang keluarga atau area sosial, di mana interaksi dan kebersamaan menjadi fokus utama. Dengan cat jingga, Anda dapat menciptakan ruang yang penuh semangat dan kenyamanan.</p>
 
-            <p>Di sisi lain, jingga juga melambangkan kreativitas dan optimisme. Ini adalah warna yang dapat merangsang pikiran dan ide-ide baru, menjadikannya pilihan yang tepat untuk ruang kerja atau studio kreatif. Dengan sentuhan jingga, setiap sudut ruangan akan terasa lebih hidup dan inspiratif.</p>
-            
-            </p></div>
-          <div class="card-footer d-md-flex">
-            <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-            <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col mb-5">
-        <div class="card shadow">
-        <img src="img/kuning.jpg" class="card-img-top" />
-        <div class="card-body">
-          <p class="card-text">Kuning</p>
-        </div>
-        <div class="d-none deskripsi"><p>Kuning adalah warna yang paling cerah dan penuh energi. Menyimbolkan kebahagiaan dan optimisme, kuning dapat mencerahkan suasana hati dan membuat ruangan terasa lebih luas dan terbuka. Warna ini sangat cocok untuk dapur atau ruang makan, di mana keluarga berkumpul dan berbagi momen-momen berharga. Cat kuning dapat membawa keceriaan dan kehangatan ke dalam setiap interaksi.</p>
-
-          <p>Selain itu, kuning juga dikenal sebagai warna yang merangsang kreativitas. Dalam konteks desain interior, penggunaan cat kuning dapat meningkatkan produktivitas dan semangat. Ini adalah pilihan yang tepat untuk ruang belajar atau studio, di mana ide-ide segar dan inovatif dapat berkembang dengan baik dalam suasana yang ceria.</p>
-          
-          </p></div>
-        <div class="card-footer d-md-flex">
-          <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-          <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="col mb-5">
-      <div class="card shadow">
-      <img src="img/hijau.jpg" class="card-img-top" />
-      <div class="card-body">
-        <p class="card-text">Hijau</p>
-      </div>
-      <div class="d-none deskripsi"><p>Hijau adalah warna yang menenangkan dan menyegarkan, melambangkan alam dan keseimbangan. Dalam desain interior, hijau dapat menciptakan nuansa yang damai dan harmonis, menjadikannya pilihan ideal untuk ruang santai seperti ruang tamu atau kamar tidur. Dengan cat hijau, Anda dapat membawa elemen alam ke dalam rumah, memberikan rasa tenang dan kesejukan.</p>
-
-        <p>Selain itu, hijau juga diasosiasikan dengan pertumbuhan dan pembaruan. Warna ini dapat memberikan inspirasi dan motivasi, terutama dalam ruang kerja atau area belajar. Dengan sentuhan hijau, Anda dapat menciptakan lingkungan yang mendukung kreativitas dan produktivitas, membuat setiap hari terasa lebih segar dan penuh harapan.</p>
-        
-        </p></div>
-      <div class="card-footer d-md-flex">
-        <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-        <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="col mb-5">
-    <div class="card shadow">
-    <img src="img/biru.jpg" class="card-img-top" />
-    <div class="card-body">
-      <p class="card-text">Biru</p>
-    </div>
-    <div class="d-none deskripsi"><p>Biru adalah warna yang menenangkan dan stabil, sering diasosiasikan dengan ketenangan dan kedamaian. Dalam desain interior, biru dapat menciptakan suasana yang sejuk dan nyaman, menjadikannya pilihan yang tepat untuk kamar tidur atau ruang meditasi. Dengan cat biru, Anda dapat menciptakan lingkungan yang mendukung relaksasi dan ketenangan pikiran.</p>
-
-      <p>Selain itu, biru juga melambangkan kepercayaan dan profesionalisme. Ini adalah warna yang sering digunakan dalam ruang kerja atau kantor, di mana fokus dan konsentrasi sangat penting. Dengan sentuhan biru, Anda dapat menciptakan atmosfer yang mendukung produktivitas tanpa mengorbankan kenyamanan.</p>
-        
-      </div>
-    <div class="card-footer d-md-flex">
-      <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-      <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
-    </div>
-  </div>
-</div>
-
-<div class="col mb-5">
-  <div class="card shadow">
-  <img src="img/ungu.jpg" class="card-img-top" />
-  <div class="card-body">
-    <p class="card-text">Ungu</p>
-  </div>
-  <div class="d-none deskripsi"><p>Ungu adalah warna yang kaya dan mewah, sering dikaitkan dengan kemewahan dan spiritualitas. Dalam desain interior, ungu dapat menambahkan sentuhan elegan dan dramatis, menjadikannya pilihan yang tepat untuk ruang-ruang formal seperti ruang tamu atau ruang makan. Dengan cat ungu, Anda dapat menciptakan atmosfer yang memikat dan berkelas, memberikan kesan yang mendalam bagi setiap tamu.</p>
-
-    <p>Selain itu, ungu juga melambangkan kreativitas dan inspirasi. Ini adalah warna yang dapat merangsang ide-ide baru dan mendorong pemikiran out-of-the-box. Dalam konteks ruang kerja atau studio, cat ungu dapat membantu menciptakan lingkungan yang mendukung inovasi dan ekspresi artistik, membuat setiap proyek terasa lebih menarik dan bermakna.</p>
-       
-    </div>
-  <div class="card-footer d-md-flex">
-    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
-  </div>
-</div>
-</div>
-
-<div class="col mb-5">
-  <div class="card shadow">
-  <img src="img/cyan.jpg" class="card-img-top" />
-  <div class="card-body">
-    <p class="card-text">Cyan</p>
-  </div>
-  <div class="d-none deskripsi"><p>Cyan adalah warna yang segar dan cerah, memberikan nuansa yang modern dan energik. Dalam desain interior, cyan dapat menciptakan suasana yang ceria dan menyegarkan, menjadikannya pilihan ideal untuk ruang-ruang yang ingin menonjolkan keceriaan, seperti ruang bermain atau dapur. Dengan cat cyan, Anda dapat menambahkan sentuhan dinamis yang membuat setiap sudut ruangan terasa hidup.</p>
-
-    <p>Selain itu, cyan juga melambangkan ketenangan dan kebebasan. Warna ini dapat memberikan efek menenangkan, cocok untuk ruang santai seperti kamar tidur atau ruang meditasi. Dengan sentuhan cyan, Anda dapat menciptakan lingkungan yang mendukung relaksasi dan pemulihan, menjadikan rumah Anda sebagai tempat yang nyaman untuk beristirahat.</p>
-    
-    </p></div>
-  <div class="card-footer d-md-flex">
-    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
-  </div>
-</div>
-</div>
-
-<div class="col mb-5">
-  <div class="card shadow">
-  <img src="img/nila.jpg" class="card-img-top" />
-  <div class="card-body">
-    <p class="card-text">Nila</p>
-  </div>
-  <div class="d-none deskripsi"><p>Nila adalah warna yang elegan dan menawan, terletak di antara biru dan ungu. Dalam desain interior, nila dapat memberikan kesan yang artistik dan unik, menjadikannya pilihan menarik untuk ruang tamu atau ruang kerja. Dengan cat nila, Anda dapat menciptakan suasana yang tenang namun tetap memikat, memberikan karakter yang berbeda pada setiap ruangan.</p>
-
-    <p>Warna nila juga diasosiasikan dengan kreativitas dan imajinasi. Ini adalah pilihan yang tepat untuk ruang-ruang di mana ide-ide inovatif dapat berkembang, seperti studio seni atau ruang belajar. Dengan sentuhan nila, Anda dapat menciptakan lingkungan yang merangsang pemikiran bebas dan ekspresi diri, menjadikan setiap proyek lebih menarik.</p>
-   
-    </p></div>
-  <div class="card-footer d-md-flex">
-    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
-  </div>
-</div>
-</div>
-
-<div class="col mb-5">
-  <div class="card shadow">
-  <img src="img/pink.jpg" class="card-img-top" />
-  <div class="card-body">
-    <p class="card-text">Pink</p>
-  </div>
-  <div class="d-none deskripsi"><p>Pink adalah warna yang lembut dan romantis, sering diasosiasikan dengan cinta dan kelembutan. Dalam desain interior, pink dapat menciptakan suasana yang hangat dan menyenangkan, menjadikannya pilihan ideal untuk kamar tidur atau ruang anak. Dengan cat pink, Anda dapat menambahkan sentuhan manis yang membuat setiap ruangan terasa lebih intim dan bersahabat.</p>
-
-    <p>Selain itu, pink juga melambangkan kebahagiaan dan keceriaan. Warna ini dapat memberikan energi positif, cocok untuk ruang-ruang sosial seperti ruang tamu atau area bermain. Dengan sentuhan pink, Anda dapat menciptakan atmosfer yang ceria dan penuh cinta, membuat setiap interaksi terasa lebih spesial.</p>
-    
-    </p></div>
-  <div class="card-footer d-md-flex">
-    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
-  </div>
-</div>
-</div>
-
-<div class="col mb-5">
-  <div class="card shadow">
-  <img src="img/cream.jpg" class="card-img-top" />
-  <div class="card-body">
-    <p class="card-text">Cream</p>
-  </div>
-  <div class="d-none deskripsi"><p>Warna krem adalah pilihan yang sempurna untuk menciptakan suasana hangat dan nyaman di dalam rumah. Dengan nuansa yang lembut dan netral, krem dapat dipadukan dengan berbagai warna lain, memberikan latar belakang yang elegan untuk setiap ruangan. Warna ini sangat cocok untuk ruang tamu, kamar tidur, atau area santai, menciptakan lingkungan yang tenang dan mengundang.</p>
-
-    <p>Selain itu, krem juga melambangkan kesederhanaan dan keanggunan. Dengan cat krem, Anda dapat menambahkan sentuhan klasik pada dekorasi interior Anda. Baik digunakan sebagai warna utama atau aksen, krem memberikan kesan yang bersih dan cerah, menjadikan setiap sudut rumah Anda terasa lebih luas dan terang.</p>
-    
-    </p></div>
-  <div class="card-footer d-md-flex">
-    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
-  </div>
-</div>
-</div>
-
-<div class="col mb-5">
-  <div class="card shadow">
-  <img src="img/hitam.jpg" class="card-img-top" />
-  <div class="card-body">
-    <p class="card-text">Hitam</p>
-  </div>
-  <div class="d-none deskripsi"><p>Hitam adalah warna yang kuat dan dramatis, sering diasosiasikan dengan kekuatan dan keanggunan. Dalam desain interior, hitam dapat memberikan kedalaman dan karakter pada setiap ruangan, menjadikannya pilihan yang tepat untuk ruang formal seperti ruang makan atau ruang tamu. Dengan cat hitam, Anda dapat menciptakan suasana yang mewah dan modern, memberikan kesan yang mendalam bagi setiap tamu.</p>
-
-    <p>Selain itu, hitam juga memberikan kontras yang menarik saat dipadukan dengan warna-warna cerah. Ini adalah warna yang dapat menambah dimensi pada desain interior, membuat elemen-elemen lain lebih menonjol. Dengan sentuhan hitam, Anda dapat menciptakan tampilan yang berani dan penuh gaya, menjadikan setiap ruangan terasa lebih hidup dan berkarakter.</p>
-
-    </p></div>
-  <div class="card-footer d-md-flex">
-    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp.120.000</span>
-  </div>
-</div>
-</div>
-
-<div class="col mb-5">
-  <div class="card shadow">
-  <img src="img/abu.jpg" class="card-img-top" />
-  <div class="card-body">
-    <p class="card-text">Abu-abu</p>
-  </div>
-  <div class="d-none deskripsi"><p>Abu adalah warna netral yang elegan dan fleksibel, sering digunakan untuk menciptakan suasana yang tenang dan seimbang. Dalam desain interior, abu dapat memberikan latar belakang yang sempurna untuk berbagai gaya dekorasi, menjadikannya pilihan ideal untuk ruang tamu atau kamar tidur. Dengan cat abu, Anda dapat menciptakan lingkungan yang modern dan stylish, memberikan kesan yang hangat dan nyaman.</p>
-
-    <p>Selain itu, abu juga dapat memberikan nuansa yang sophisticated dan kontemporer. Warna ini mudah dipadukan dengan berbagai aksen warna, sehingga memungkinkan Anda untuk bereksperimen dengan berbagai palet. Dengan sentuhan abu, Anda dapat menciptakan ruang yang elegan dan menarik perhatian, menjadikan setiap sudut rumah Anda terasa lebih berkelas.</p>
-
-    </p></div>
-  <div class="card-footer d-md-flex">
-    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
-  </div>
-</div>
-</div>
-
-<div class="col mb-5">
-  <div class="card shadow">
-  <img src="img/navy.jpg" class="card-img-top" />
-  <div class="card-body">
-    <p class="card-text">Navy</p>
-  </div>
-  <div class="d-none deskripsi"><p>Navy adalah warna yang dalam dan kaya, sering diasosiasikan dengan ketenangan dan profesionalisme. Dalam desain interior, navy dapat memberikan kesan yang dramatis dan elegan, menjadikannya pilihan yang tepat untuk ruang kerja atau ruang tamu. Dengan cat navy, Anda dapat menciptakan suasana yang tenang namun tetap berkelas, memberikan karakter yang kuat pada setiap ruangan.</p>
-
-    <p>Selain itu, navy juga melambangkan kepercayaan dan stabilitas. Ini adalah warna yang dapat memberikan ketenangan dan fokus, cocok untuk ruang-ruang di mana konsentrasi sangat penting. Dengan sentuhan navy, Anda dapat menciptakan lingkungan yang mendukung produktivitas dan kreativitas, menjadikan setiap kegiatan terasa lebih terfokus dan bermakna.</p>
- 
-    </p></div>
-  <div class="card-footer d-md-flex">
-    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp.120.000</span>
-  </div>
-</div>
-</div>
-
-<div class="col mb-5">
-  <div class="card shadow">
-  <img src="img/coklat.jpg" class="card-img-top" />
-  <div class="card-body">
-    <p class="card-text">Coklat</p>
-  </div>
-  <div class="d-none deskripsi"><p>Warna coklat adalah simbol dari kenyamanan dan kehangatan, menjadikannya pilihan yang ideal untuk menciptakan suasana yang bersahaja dan ramah. Dalam desain interior, coklat dapat memberikan nuansa alami dan stabil, cocok untuk ruang tamu, dapur, atau ruang makan. Dengan cat coklat, Anda dapat menciptakan lingkungan yang mengundang, membuat setiap tamu merasa di rumah.</p>
-
-    <p>Selain itu, coklat juga melambangkan kekuatan dan ketahanan. Warna ini dapat dipadukan dengan berbagai elemen dekoratif, dari kayu alami hingga aksesoris berwarna cerah, menciptakan keseimbangan yang harmonis dalam ruang. Dengan sentuhan coklat, Anda dapat menjadikan rumah Anda tempat yang nyaman dan hangat, ideal untuk bersantai dan berkumpul bersama keluarga.</p>
-  
-    </p></div>
-  <div class="card-footer d-md-flex">
-    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
-  </div>
-</div>
-</div>
-
-<div class="col mb-5">
-  <div class="card shadow">
-  <img src="img/neon.jpg" class="card-img-top" />
-  <div class="card-body">
-    <p class="card-text">Neon</p>
-  </div>
-  <div class="d-none deskripsi"><p>Warna neon adalah pilihan yang berani dan penuh energi, ideal untuk menciptakan suasana yang ceria dan dinamis. Dengan kecerahan yang mencolok, cat neon dapat digunakan untuk menonjolkan area tertentu dalam ruangan atau menciptakan aksen yang menarik. Cocok untuk ruang bermain anak, studio kreatif, atau bahkan area hiburan, warna neon akan memberikan kehidupan dan semangat pada desain interior Anda.</p>
-
-    <p>Neon juga sering diasosiasikan dengan gaya modern dan futuristik. Dengan kombinasi yang tepat, cat neon dapat menciptakan suasana yang trendy dan inovatif. Jika Anda ingin menambahkan sentuhan unik dan mencolok pada ruang Anda, cat neon adalah pilihan yang tepat untuk menciptakan atmosfer yang penuh inspirasi dan keceriaan.</p>
-  
-    </p></div>
-  <div class="card-footer d-md-flex">
-    <a class="btn btn-sm btn-primary d-block btnDetail">Detail</a>
-    <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 120.000</span>
-  </div>
-</div>
-</div>
-</div>
-
-<!-- Produk Unggulan -->
-<div class="featured-products py-5">
-  <h3 class="text-center">Produk Unggulan</h3>
-  <div class="container">
-      <div class="row row-cols-md-4 row-cols-2 g-4 justify-content-center">
-          <div class="col">
-              <div class="card shadow">
-                  <img src="img/pink.jpg" class="card-img-top" alt="Produk Unggulan 2">
-                  <div class="card-body text-center">
-                      <h5 class="card-title">Cat Eco-Friendly</h5>
-                      <p class="card-text">Ramah lingkungan dan aman untuk keluarga.</p>
-                      <span class="text-danger fw-bold">Rp. 200.000</span>
-                      <a href="#" class="btn btn-primary mt-2">Beli Sekarang</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col">
-              <div class="card shadow">
-                  <img src="img/merah.jpg" class="card-img-top" alt="Produk Unggulan 3">
-                  <div class="card-body text-center">
-                      <h5 class="card-title">Cat Tahan Air</h5>
-                      <p class="card-text">Ideal untuk area luar ruangan. Merona & cerah</p>
-                      <span class="text-danger fw-bold">Rp. 180.000</span>
-                      <a href="#" class="btn btn-primary mt-2">Beli Sekarang</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col">
-              <div class="card shadow">
-                  <img src="img/glitter.jpg" class="card-img-top" alt="Produk Unggulan 4">
-                  <div class="card-body text-center">
-                      <h5 class="card-title">Cat Glitter</h5>
-                      <p class="card-text">Tambahkan kilau pada dinding Anda.</p>
-                      <span class="text-danger fw-bold">Rp. 220.000</span>
-                      <a href="#" class="btn btn-primary mt-2">Beli Sekarang</a>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
-
-
-
-        <!-- tentang kami -->
-
-
+        <!-- Tentang Kami -->
         <div id="tentang" class="row-col-12 px-4 py-4 bg-secondary text-center">
-          <div class="mx-auto w-75">
-            <h3 class="text-white">Tentang Kami</h3>
-            <p class="text-center text-white"><img src="img/about-us.png" align="left" style="width: 100px; height: auto" class="me-3 mb-3"/>Selamat datang di Toko Jingga! Kami adalah tim yang berdedikasi untuk memberikan Anda produk-produk cat berkualitas tinggi dan layanan terbaik. Dengan pengalaman kami dalam industri ini, kami percaya bahwa kepuasan pelanggan adalah prioritas utama kami.</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.133993402041!2d107.57312487356465!3d-6.8745446672610555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7d1b68bb875%3A0xd8fcf5a9e43bd6e4!2sUniversitas%20Logistik%20dan%20Bisnis%20Internasional%20(ULBI)!5e0!3m2!1sid!2sid!4v1729217618249!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+            <div class="mx-auto w-75">
+                <h3 class="text-white">Tentang Kami</h3>
+                <p class="text-center text-white"><img src="img/about-us.png" align="left" style="width: 100px; height: auto" class="me-3 mb-3" />Selamat datang di Toko Jingga! Kami adalah tim yang berdedikasi untuk memberikan Anda produk-produk cat berkualitas tinggi dan layanan terbaik...</p>
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
 
-        <!-- cara order-->
+        <!-- Cara Order -->
         <div id="order" class="row-col-12 px-4 py-4 bg-light text-center">
-          <div class="mx-auto w-75">
-            <h3>Cara Order</h3>
-            <p class="text-center"><img src="img/order.png" align="right" style="width: 100px; height: auto" class="ms-3 mb-3"/>Proses pemesanan cat di Toko Jingga sangatlah mudah. Ikuti 2 langkah di bawah ini untuk memesan produk impian Anda:
-            </p>
-            <p>1. Pilih produk yang Anda inginkan di "produk kami".</p>
-            <p>2. Klik tombol "Beli Produk Ini" untuk menanyakan produk dan memesan produk.</p>
-          </div>
+            <div class="mx-auto w-75">
+                <h3>Cara Order</h3>
+                <p class="text-center"><img src="img/order.png" align="right" style="width: 100px; height: auto" class="ms-3 mb-3" />Proses pemesanan cat di Toko Jingga sangatlah mudah...</p>
+                <p>1. Pilih produk yang Anda inginkan di "produk kami".</p>
+                <p>2. Klik tombol "Beli Produk Ini" untuk menanyakan produk dan memesan produk.</p>
+            </div>
         </div>
 
-        <!DOCTYPE html>
-        <html lang="id">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Toko Jingga</title>
-            <link rel="stylesheet" href="styles.css">
-        </head>
-        <body>
-            <header>
-                <h1>Selamat Datang di Toko Jingga!</h1>
-                <p>Jangan lupa kunjungi kami untuk penawaran menarik!</p>
-            </header>
-            <main>
-                <section class="features">
-                    <h2>Fitur Menarik</h2>
-                    <ul>
-                        <li>Diskon hingga 50% untuk produk terpilih</li>
-                        <li>Pengiriman cepat dan aman</li>
-                        <li>Promo spesial setiap bulan</li>
-                    </ul>
-                </section>
-                <section class="cta">
-                    <h2>Kunjungi Toko Kami!</h2>
-                    <a href="#" class="button">Kunjungi Sekarang</a>
-                </section>
-            </main>
-            <footer>
-                <p>&copy; 2024 Toko Jingga. Semua hak dilindungi.</p>
-            </footer>
-        </body>
-        </html>
-        
-
-        <!-- copyright -->
+        <!-- Copyright -->
         <div class="text-center p-4 border-top">&copy; 2024 Toko Jingga. - Farhan1654</div>
-        
-        
-    
-    <!-- modal -->
-<button type="button" class="btn btn-primary d-none btnModal" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5 modalTitle" id="exampleModalLabel"></h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body row">
-        <div class="modalImage col-md-6 col-12"></div>
-        <div class="col-md-6 col-12">
-          <div class="modalDeskripsi"></div>
-          <div class="d-md-flex">
-            <a href="" target="blank" class="btn btn-sm btn-warning d-block btnBeli">Beli Produk Ini</a>
-            <span class="ms-auto text-danger fw-bold d-block text-center modalHarga"></span>
-          </div>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
     </div>
-  </div>
-</div>
 
-<!-- Komentar -->
-
+    <!-- Modal -->
+    <button type="button" class="btn btn-primary d-none btnModal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 modalTitle" id="exampleModalLabel"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row">
+                    <div class="modalImage col-md-6 col-12"></div>
+                    <div class="col-md-6 col-12">
+                        <div class="modalDeskripsi"></div>
+                        <div class="d-md-flex">
+                            <a href="" target="blank" class="btn btn-sm btn-warning d-block btnBeli">Beli Produk Ini</a>
+                            <span class="ms-auto text-danger fw-bold d-block text-center modalHarga"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="javascript/main.js"></script>
-
-
-  </body>
+</body>
 </html>
