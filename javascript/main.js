@@ -32,17 +32,51 @@ document.querySelectorAll('.btnDetail').forEach(item => {
 let slideIndex = 0;
 showSlides();
 
-function showSlides() {
-    let i;
+let currentSlide = 0; // Menyimpan indeks slide saat ini
+
+function showSlides(n) {
     let slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
+    if (slides.length === 0) {
+        console.error("Tidak ada slide yang ditemukan.");
+        return;
     }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    slides[slideIndex - 1].style.display = "block";  
-    setTimeout(showSlides, 3000); // Ganti gambar setiap 3 detik
+
+    // Mengatur semua slide menjadi tidak terlihat
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    // Menampilkan slide yang sesuai
+    if (n >= 0 && n < slides.length) {
+        slides[n].style.display = "block";
+    } else {
+        console.error("Index slide tidak valid:", n);
+    }
 }
+
+// Memanggil showSlides setelah DOM sepenuhnya dimuat
+document.addEventListener("DOMContentLoaded", function() {
+    showSlides(currentSlide); // Menampilkan slide pertama
+});
+
+// Menambahkan kontrol untuk navigasi
+document.querySelector('.carousel-control-next').addEventListener('click', function() {
+    currentSlide++;
+    if (currentSlide >= document.getElementsByClassName("mySlides").length) {
+        currentSlide = 0; // Kembali ke slide pertama
+    }
+    showSlides(currentSlide);
+});
+
+document.querySelector('.carousel-control-prev').addEventListener('click', function() {
+    currentSlide--;
+    if (currentSlide < 0) {
+        currentSlide = document.getElementsByClassName("mySlides").length - 1; // Kembali ke slide terakhir
+    }
+    showSlides(currentSlide);
+});
+
+
 
 function plusSlides(n) {
     slideIndex += n - 1; // Mengatur indeks slide sesuai dengan tombol yang ditekan
