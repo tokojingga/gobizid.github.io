@@ -26,6 +26,7 @@ section {
 
 h1 {
   text-align: center;
+  margin: 0; /* Menghilangkan margin untuk h1 */
 }
 
 .container {
@@ -41,6 +42,7 @@ h1 {
   display: flex;
   position: relative;
   overflow: hidden;
+  transition: transform 0.2s; /* Memindahkan transisi ke sini */
 }
 
 .img-title {
@@ -118,10 +120,6 @@ a {
   font-weight: bold;
 }
 
-.card {
-  transition: transform 0.2s;
-}
-
 .card:hover {
   transform: scale(1.05);
 }
@@ -136,10 +134,6 @@ header {
   color: white;
   padding: 20px;
   text-align: center;
-}
-
-h1 {
-  margin: 0;
 }
 
 .features {
