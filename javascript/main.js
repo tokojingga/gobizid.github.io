@@ -24,13 +24,12 @@ document.querySelectorAll('.btnDetail').forEach(item => {
         document.querySelector('.modalHarga').innerHTML = harga;
 
         const nohp = '+62 852-9989-9161';
-        let pesan = `https://api.whatsapp.com/send?phone=${nohp}&text=Halo, saya ingin membeli produk ini ${gambar}`;
+        let pesan = `https://api.whatsapp.com/send?phone=${nohp}&text=Halo, saya ingin membeli produk ini ${judul}`;
 
         document.querySelector('.btnBeli').href = pesan;
     });
 });
 
-let slideIndex = 0;
 let currentSlide = 0; // Menyimpan indeks slide saat ini
 showSlides(currentSlide); // Menampilkan slide pertama
 
@@ -77,6 +76,6 @@ document.querySelector('.carousel-control-prev').addEventListener('click', funct
 });
 
 function plusSlides(n) {
-    slideIndex += n - 1; // Mengatur indeks slide sesuai dengan tombol yang ditekan
-    showSlides(slideIndex); // Memperbaiki pemanggilan showSlides dengan slideIndex
+    currentSlide += n; // Mengatur indeks slide sesuai dengan tombol yang ditekan
+    showSlides(currentSlide); // Memperbaiki pemanggilan showSlides dengan currentSlide
 }
